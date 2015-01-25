@@ -23,6 +23,7 @@ using Owin.Security.Providers.Yahoo;
 using Owin.Security.Providers.OpenID;
 using Owin.Security.Providers.Steam;
 using Owin.Security.Providers.WordPress;
+using Owin.Security.Providers.Venmo;
 
 namespace OwinOAuthProvidersDemo
 {
@@ -195,6 +196,11 @@ namespace OwinOAuthProvidersDemo
 			//app.UseBattleNetAuthentication(
 			//	clientId: "",
 			//	clientSecret: "");
+
+            // app.UseVenmoAuthentication(
+            //   clientId: "", 
+            //   clientSecret: ""
+            // );
         }
     }
 }
