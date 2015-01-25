@@ -10,6 +10,7 @@ Provides a set of extra authentication providers for OWIN ([Project Katana](http
   - StackExchange
   - HealthGraph
   - Battle.net
+  - Venmo
 - OpenID
   - Generic OpenID 2.0 provider
   - Steam
